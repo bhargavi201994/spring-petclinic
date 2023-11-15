@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
       - name: my-springboot-app
-        image: mana007.azurecr.io/myimage:v1
+        image: mana007.azurecr.io/petclinic:v1
         imagePullPolicy: Always
         ports:
         - containerPort: 8080
